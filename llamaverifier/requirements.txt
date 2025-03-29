@@ -1,0 +1,32 @@
+# Core dependencies
+typer>=0.9.0
+rich>=13.5.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.3.0
+requests>=2.31.0
+python-multipart>=0.0.6
+
+# ML frameworks
+onnx>=1.14.0
+onnxruntime>=1.15.0
+numpy>=1.24.0
+transformers>=4.35.0
+torch>=2.0.0
+mlx>=0.0.5; platform_system == "Darwin" and platform_machine == "arm64"
+
+# ZKP libraries
+py_ecc>=6.0.0
+zokrates-pycrypto>=0.2.3
+eth-utils>=2.2.0
+
+# Testing and development
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Documentation
+mkdocs>=1.5.2
+mkdocs-material>=9.2.7 
