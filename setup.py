@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="llamaverifier",
+    name="llamaverifier-llamasearch",
     version="0.1.0",
     author="LlamaSearch AI",
-    author_email="info@llamasearchai.com",
+    author_email="nikjois@llamasearch.ai",
     description="A powerful library for AI-powered search and data processing",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/llamasearchai/llamaverifier",
+    url="https://llamasearch.ai",
     project_urls={
         "Bug Tracker": "https://github.com/llamasearchai/llamaverifier/issues",
         "Documentation": "https://llamasearchai.github.io/llamaverifier/",
@@ -62,4 +62,6 @@ setup(
             "llamaverifier=llamaverifier.cli:main",
         ],
     },
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
 )
