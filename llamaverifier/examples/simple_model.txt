@@ -1,0 +1,12 @@
+# Simple Linear Model
+# Format: y = w1*x1 + w2*x2 + b
+
+# Model parameters
+w1=0.5
+w2=0.3
+b=0.1
+
+# Model architecture
+type=linear
+inputs=2
+outputs=1 
